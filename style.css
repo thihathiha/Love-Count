@@ -6,16 +6,12 @@
 
 body{
 	color: #fff;
-	height: 100vh;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
+@media screen and (orientation: portrait){
+
 #main{
-	width: 400px;
-	height: 100%;
+	width: 100%;
 	background-image: url('img/bgg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -113,11 +109,13 @@ body{
 }
 
 #memory{
-	width: 400px;
+	width: 100%;
 	height: 100%;
 	background-color: grey;
 
 	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 #memory .close{
@@ -136,6 +134,8 @@ body{
 	width: 100%;
 	height: 92%;
 	background-color: skyblue;
+
+	margin-top: 26px;
 }
 
 .photos .images{
@@ -146,8 +146,8 @@ body{
 }
 
 .photos .first{
-	width: 220px;
-	height: 100px;
+	width: 230px;
+	height: 120px;
 	background-color: burlywood;
 
 	position: relative;
@@ -189,40 +189,40 @@ body{
 
 
 .photos .second{
-	width: 120px;
-	height: 100px;
+	width: 130px;
+	height: 120px;
 	background-color: burlywood;
 }
 
 .photos .third{
-	width: 130px;
-	height: 100px;
+	width: 140px;
+	height: 120px;
 	background-color: burlywood;
 }
 
 .photos .fourth{
-	width: 110px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
 	background-color: burlywood;
 }
 
 .photos .fifth{
-	width: 290px;
-	height: 100px;
+	width: 300px;
+	height: 120px;
 	background-color: burlywood;
 
 	margin: 25px auto;
 }
 
 .photos .sixth{
-	width: 110px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
 	background-color: burlywood;
 }
 
 .photos .seventh{
-	width: 190px;
-	height: 100px;
+	width: 200px;
+	height: 120px;
 	background-color: burlywood;
 }
 
@@ -234,4 +234,6 @@ body{
 
 #memory footer p{
 	margin-right: 25px;
+}
+
 }
