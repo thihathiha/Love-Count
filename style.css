@@ -87,8 +87,8 @@ body{
 }
 
 .info .profile{
-	width: 60px;
-	height: 60px;
+	width: 70px;
+	height: 70px;
 	border-radius: 50%;
 	background-color: blue;
 }
@@ -98,10 +98,6 @@ body{
 	height: 100%;
 	object-fit: cover;
 	border-radius: 50%;
-}
-
-.info .profile::before{
-
 }
 
 .info .love{
@@ -125,6 +121,7 @@ body{
 	height: 100%;
 	background-image: url('img/bg.jpg');
 	background-size: cover;
+	background-repeat: no-repeat;
 
 	position: absolute;
 	top: 0;
