@@ -6,16 +6,19 @@
 
 body{
 	color: #fff;
+	height: 850px;
+	background-image: url('img/bgg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+
 }
 
 @media screen and (orientation: portrait){
 
 #main{
 	width: 100%;
-	background-image: url('img/bgg.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-
+	height: 100%;
+	
 	position: relative;
 }
 
@@ -62,7 +65,7 @@ body{
 
 .content .title span{
 	color: #fff;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	letter-spacing: 1px;
 }
 
@@ -71,6 +74,8 @@ body{
 	text-align: center;
 	font-size: 2rem;
 	letter-spacing: 2.5px;
+
+	margin-top: 10px;
 }
 
 .content .info{
@@ -86,6 +91,13 @@ body{
 	height: 60px;
 	border-radius: 50%;
 	background-color: blue;
+}
+
+.profile img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
 }
 
 .info .profile::before{
@@ -111,7 +123,8 @@ body{
 #memory{
 	width: 100%;
 	height: 100%;
-	background-color: grey;
+	background-image: url('img/bg.jpg');
+	background-size: cover;
 
 	position: absolute;
 	top: 0;
@@ -119,7 +132,11 @@ body{
 }
 
 #memory .close{
-	margin: 15px 20px 8px 0;
+	margin: 12px 20px 8px 0;
+}
+
+.close span{
+	letter-spacing: 1px;
 }
 
 .close i{
@@ -133,9 +150,9 @@ body{
 #memory .photos{
 	width: 100%;
 	height: 92%;
-	background-color: skyblue;
+	/*background-color: skyblue;*/
 
-	margin-top: 26px;
+	margin-top: 15px;
 }
 
 .photos .images{
@@ -145,85 +162,370 @@ body{
 	margin-bottom: 30px;
 }
 
+/*Additional CSS*/
+
+.hide{
+	opacity: 0;
+}
+
+
 .photos .first{
-	width: 230px;
+	color: purple;
+	width: 210px;
 	height: 120px;
-	background-color: burlywood;
+	background-color: skyblue;
+	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
 
 	position: relative;
 }
 
 .first::before{
-	content: '';
+	content: '1st Date';
+	font-size: 1.4rem;
+	font-style: italic;
 	width: 100%;
 	height: 100%;
-	background-color: purple;
+	text-align: center;
+	line-height: 120px;
 
 	position: absolute;
 	top: 0;
 	left: 0;
-
-	animation: ani 1s linear 1 forwards;
 }
 
-@keyframes ani{
-	from{
-		opacity: 0;
-	}
-	to{
-		opacity: 0;
-	}
+.first .cross1{
+	width: 25px;
+	height: 25px;
+	/*background-color: purple;*/
+	text-align: center;
+	line-height: 25px;
+	color: #fff;
+	font-size: 1.2rem;
+
+	position: absolute;
+	top: 1%;
+	right: 2%;
+
+	/*opacity: 0;*/
+	z-index: 3;
 }
 
-@keyframes myani{
-	0%{
-		opacity: 1;
-	}
-	95%{
-		opacity: 1;
-	}
-	100%{
-		opacity: 0;
-	}
-}
+.first .firstphoto{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 
+	/*opacity: 0;*/
+
+	z-index: 2;
+}
 
 .photos .second{
-	width: 130px;
+	color: purple;
+	width: 125px;
 	height: 120px;
-	background-color: burlywood;
+	background-color: skyblue;
+	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
+
+	position: relative;
+}
+
+.second::before{
+	content: '2nd Date';
+	font-size: 1.2rem;
+	font-style: italic;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 120px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.second .cross2{
+	width: 25px;
+	height: 25px;
+	/*background-color: purple;*/
+	text-align: center;
+	line-height: 25px;
+	color: #fff;
+	font-size: 1.2rem;
+
+	position: absolute;
+	top: 1%;
+	right: 2%;
+
+	/*opacity: 0;*/
+	z-index: 3;
+}
+
+.second .secondphoto{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+	/*opacity: 0;*/
+
+	z-index: 2;
 }
 
 .photos .third{
+	color: purple;
 	width: 140px;
 	height: 120px;
-	background-color: burlywood;
+	background-color: skyblue;
+	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
+
+	position: relative;
+}
+
+.third::before{
+	content: '3rd Date';
+	font-size: 1.2rem;
+	font-style: italic;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 120px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.third .thirdphoto{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+	/*opacity: 0;*/
+
+	z-index: 2;
+}
+
+.third .cross3{
+	width: 25px;
+	height: 25px;
+	/*background-color: purple;*/
+	text-align: center;
+	line-height: 25px;
+	color: #fff;
+	font-size: 1.2rem;
+
+	position: absolute;
+	top: 1%;
+	right: 2%;
+
+	/*opacity: 0;*/
+	z-index: 3;
 }
 
 .photos .fourth{
+	color: purple;
 	width: 120px;
 	height: 120px;
-	background-color: burlywood;
+	background-color: skyblue;
+	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
+
+	position: relative;
+}
+
+.fourth::before{
+	content: '4th Date';
+	font-size: 1.2rem;
+	font-style: italic;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 120px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.fourth .fourthphoto{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+	/*opacity: 0;*/
+
+	z-index: 2;
+}
+
+.fourth .cross4{
+	width: 25px;
+	height: 25px;
+	/*background-color: purple;*/
+	text-align: center;
+	line-height: 25px;
+	color: #fff;
+	font-size: 1.2rem;
+
+	position: absolute;
+	top: 1%;
+	right: 2%;
+
+	/*opacity: 0;*/
+	z-index: 3;
 }
 
 .photos .fifth{
+	color: purple;
 	width: 300px;
-	height: 120px;
-	background-color: burlywood;
+	height: 130px;
+	background-color: skyblue;
+	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
+
+	position: relative;
 
 	margin: 25px auto;
 }
 
+.fifth::before{
+	content: '5th Date';
+	font-size: 1.4rem;
+	font-style: italic;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 120px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.fifth .fifthphoto{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+	/*opacity: 0;*/
+
+	z-index: 2;
+}
+
+.fifth .cross5{
+	width: 25px;
+	height: 25px;
+	/*background-color: purple;*/
+	text-align: center;
+	line-height: 25px;
+	color: #fff;
+	font-size: 1.2rem;
+
+	position: absolute;
+	top: 1%;
+	right: 2%;
+
+	/*opacity: 0;*/
+	z-index: 3;
+}
+
 .photos .sixth{
+	color: purple;
 	width: 120px;
 	height: 120px;
-	background-color: burlywood;
+	background-color: skyblue;
+	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
+
+	position: relative;
+}
+
+.sixth::before{
+	content: '6th Date';
+	font-size: 1.2rem;
+	font-style: italic;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 120px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.sixth .sixthphoto{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+	/*opacity: 0;*/
+
+	z-index: 2;
+}
+
+.sixth .cross6{
+	width: 25px;
+	height: 25px;
+	/*background-color: purple;*/
+	text-align: center;
+	line-height: 25px;
+	color: #fff;
+	font-size: 1.2rem;
+
+	position: absolute;
+	top: 1%;
+	right: 2%;
+
+	/*opacity: 0;*/
+	z-index: 3;
 }
 
 .photos .seventh{
+	color: purple;
 	width: 200px;
 	height: 120px;
-	background-color: burlywood;
+	background-color: skyblue;
+	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
+
+	position: relative;
+}
+
+.seventh::before{
+	content: '7th Date';
+	font-size: 1.2rem;
+	font-style: italic;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 120px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.seventh .seventhphoto{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+	/*opacity: 0;*/
+
+	z-index: 2;
+}
+
+.seventh .cross7{
+	width: 25px;
+	height: 25px;
+	/*background-color: purple;*/
+	text-align: center;
+	line-height: 25px;
+	color: #fff;
+	font-size: 1.2rem;
+
+	position: absolute;
+	top: 1%;
+	right: 2%;
+
+	/*opacity: 0;*/
+	z-index: 3;
 }
 
 #memory footer{
