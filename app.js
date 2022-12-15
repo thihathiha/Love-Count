@@ -8,36 +8,43 @@ $(document).ready(function(){
 	});
 	$(".first").click(function(){
 		$(this).toggleClass("skyblue");
+                $(".date1").toggleClass("hide");
 		$(".firstphoto").toggleClass("hide");
 		$(".cross1").toggleClass("hide");
 	});
 	$(".second").click(function(){
                 $(this).toggleClass("skyblue");
+                $(".date2").toggleClass("hide");
                 $(".secondphoto").toggleClass("hide");
                 $(".cross2").toggleClass("hide");
         });
         $(".third").click(function(){
                 $(this).toggleClass("skyblue");
+                $(".date3").toggleClass("hide");
                 $(".thirdphoto").toggleClass("hide");
                 $(".cross3").toggleClass("hide");
         });
         $(".fourth").click(function(){
                 $(this).toggleClass("skyblue");
+                $(".date4").toggleClass("hide");
                 $(".fourthphoto").toggleClass("hide");
                 $(".cross4").toggleClass("hide");
         });
         $(".fifth").click(function(){
                 $(this).toggleClass("skyblue");
+                $(".date5").toggleClass("hide");
                 $(".fifthphoto").toggleClass("hide");
                 $(".cross5").toggleClass("hide");
         });
         $(".sixth").click(function(){
                 $(this).toggleClass("skyblue");
+                $(".date6").toggleClass("hide");
                 $(".sixthphoto").toggleClass("hide");
                 $(".cross6").toggleClass("hide");
         });
         $(".seventh").click(function(){
                 $(this).toggleClass("skyblue");
+                $(".date7").toggleClass("hide");
                 $(".seventhphoto").toggleClass("hide");
                 $(".cross7").toggleClass("hide");
         });

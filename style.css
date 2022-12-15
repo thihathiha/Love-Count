@@ -6,11 +6,17 @@
 
 body{
 	color: #fff;
-	height: 850px;
+	height: 780px;
 	background-image: url('img/bgg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 
+}
+
+@media screen and (orientation: landscape){
+	body{
+		display: none;
+	}
 }
 
 @media screen and (orientation: portrait){
@@ -118,7 +124,7 @@ body{
 
 #memory{
 	width: 100%;
-	height: 100%;
+	height: 796px;
 	background-image: url('img/bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -176,8 +182,7 @@ body{
 	position: relative;
 }
 
-.first::before{
-	content: '1st Date';
+.first .date1{
 	font-size: 1.4rem;
 	font-style: italic;
 	width: 100%;
@@ -189,6 +194,20 @@ body{
 	top: 0;
 	left: 0;
 }
+
+/*.first::before{
+	content: '1st Date';
+	font-size: 1.4rem;
+	font-style: italic;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 120px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
 
 .first .cross1{
 	width: 25px;
@@ -212,6 +231,8 @@ body{
 	height: 100%;
 	object-fit: cover;
 
+	position: relative;
+
 	/*opacity: 0;*/
 
 	z-index: 2;
@@ -227,9 +248,8 @@ body{
 	position: relative;
 }
 
-.second::before{
-	content: '2nd Date';
-	font-size: 1.2rem;
+.second .date2{
+	font-size: 1.4rem;
 	font-style: italic;
 	width: 100%;
 	height: 100%;
@@ -278,9 +298,8 @@ body{
 	position: relative;
 }
 
-.third::before{
-	content: '3rd Date';
-	font-size: 1.2rem;
+.third .date3{
+	font-size: 1.4rem;
 	font-style: italic;
 	width: 100%;
 	height: 100%;
@@ -329,9 +348,8 @@ body{
 	position: relative;
 }
 
-.fourth::before{
-	content: '4th Date';
-	font-size: 1.2rem;
+.fourth .date4{
+	font-size: 1.4rem;
 	font-style: italic;
 	width: 100%;
 	height: 100%;
@@ -382,8 +400,7 @@ body{
 	margin: 25px auto;
 }
 
-.fifth::before{
-	content: '5th Date';
+.fifth .date5{
 	font-size: 1.4rem;
 	font-style: italic;
 	width: 100%;
@@ -433,9 +450,8 @@ body{
 	position: relative;
 }
 
-.sixth::before{
-	content: '6th Date';
-	font-size: 1.2rem;
+.sixth .date6{
+	font-size: 1.4rem;
 	font-style: italic;
 	width: 100%;
 	height: 100%;
@@ -484,9 +500,8 @@ body{
 	position: relative;
 }
 
-.seventh::before{
-	content: '7th Date';
-	font-size: 1.2rem;
+.seventh .date7{
+	font-size: 1.4rem;
 	font-style: italic;
 	width: 100%;
 	height: 100%;
