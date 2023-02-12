@@ -48,6 +48,30 @@ $(document).ready(function(){
                 $(".seventhphoto").toggleClass("hide");
                 $(".cross7").toggleClass("hide");
         });
+        $(".eightth").click(function(){
+                $(this).toggleClass("skyblue");
+                $(".date8").toggleClass("hide");
+                $(".eightthphoto").toggleClass("hide");
+                $(".cross8").toggleClass("hide");
+        });
+        $(".nineth").click(function(){
+                $(this).toggleClass("skyblue");
+                $(".date9").toggleClass("hide");
+                $(".ninethphoto").toggleClass("hide");
+                $(".cross8").toggleClass("hide");
+        });
+        $(".tenth").click(function(){
+                $(this).toggleClass("skyblue");
+                $(".date10").toggleClass("hide");
+                $(".tenthphoto").toggleClass("hide");
+                $(".cross10").toggleClass("hide");
+        });
+        $(".eleventh").click(function(){
+                $(this).toggleClass("skyblue");
+                $(".date11").toggleClass("hide");
+                $(".eleventhphoto").toggleClass("hide");
+                $(".cross11").toggleClass("hide");
+        });
 });
 
 // Day Count
