@@ -232,8 +232,8 @@ body{
 	height: 100%;
 
 	position: absolute;
-	top: 31%;
-	left: 28%;
+	top: 27%;
+	left: 25%;
 	/*transform: translate(-50%,-50%);*/
 }
 
@@ -282,7 +282,7 @@ body{
 
 .photos .second{
 	color: purple;
-	width: 95px;
+	width: 105px;
 	height: 90px;
 	background-color: skyblue;
 	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
@@ -298,7 +298,7 @@ body{
 
 	position: absolute;
 	top: 25%;
-	left: 22%;
+	left: 19%;
 }
 
 .second .cross2{
@@ -330,7 +330,7 @@ body{
 
 .photos .third{
 	color: purple;
-	width: 85px;
+	width: 95px;
 	height: 65px;
 	background-color: skyblue;
 	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
@@ -346,7 +346,7 @@ body{
 
 	position: absolute;
 	top: 28%;
-	left: 19%;
+	left: 17%;
 }
 
 .third .thirdphoto{
@@ -378,7 +378,7 @@ body{
 
 .photos .fourth{
 	color: purple;
-	width: 90px;
+	width: 100px;
 	height: 70px;
 	background-color: skyblue;
 	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
@@ -394,7 +394,7 @@ body{
 
 	position: absolute;
 	top: 28%;
-	left: 19%;
+	left: 17%;
 }
 
 .fourth .fourthphoto{
@@ -476,7 +476,7 @@ body{
 
 .photos .sixth{
 	color: purple;
-	width: 70px;
+	width: 90px;
 	height: 70px;
 	background-color: skyblue;
 	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
@@ -492,7 +492,7 @@ body{
 
 	position: absolute;
 	top: 21%;
-	left: 10%;
+	left: 9%;
 }
 
 .sixth .sixthphoto{
