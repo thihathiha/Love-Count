@@ -6,7 +6,8 @@
 
 body{
 	color: #fff;
-	height: 780px;
+	width: 100%;
+	height: 100vh;
 	background-image: url('img/bgg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -166,9 +167,9 @@ body{
 
 #memory{
 	width: 100%;
-	height: 796px;
+	height: 100vh;
 	background-image: url('img/bg.jpg');
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 
 	position: absolute;
@@ -197,7 +198,7 @@ body{
 	height: 92%;
 	/*background-color: skyblue;*/
 
-	margin-top: 15px;
+	margin-top: 30px;
 }
 
 .photos .images{
@@ -216,8 +217,8 @@ body{
 
 .photos .first{
 	color: purple;
-	width: 170px;
-	height: 85px;
+	width: 100px;
+	height: 65px;
 	background-color: skyblue;
 	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
 
@@ -225,14 +226,14 @@ body{
 }
 
 .first .date1{
-	font-size: 1em;
+	font-size: 0.9em;
 	font-style: italic;
 	width: 100%;
 	height: 100%;
 
 	position: absolute;
-	top: 33%;
-	left: 30%;
+	top: 31%;
+	left: 28%;
 	/*transform: translate(-50%,-50%);*/
 }
 
@@ -281,8 +282,8 @@ body{
 
 .photos .second{
 	color: purple;
-	width: 125px;
-	height: 120px;
+	width: 95px;
+	height: 90px;
 	background-color: skyblue;
 	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
 
@@ -290,14 +291,14 @@ body{
 }
 
 .second .date2{
-	font-size: 1rem;
+	font-size: 0.9rem;
 	font-style: italic;
 	width: 100%;
 	height: 100%;
 
 	position: absolute;
-	top: 30%;
-	left: 33%;
+	top: 25%;
+	left: 22%;
 }
 
 .second .cross2{
@@ -329,8 +330,8 @@ body{
 
 .photos .third{
 	color: purple;
-	width: 110px;
-	height: 90px;
+	width: 85px;
+	height: 65px;
 	background-color: skyblue;
 	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
 
@@ -338,14 +339,14 @@ body{
 }
 
 .third .date3{
-	font-size: 1rem;
+	font-size: 0.9rem;
 	font-style: italic;
 	width: 100%;
 	height: 100%;
 
 	position: absolute;
-	top: 33%;
-	left: 30%;
+	top: 28%;
+	left: 19%;
 }
 
 .third .thirdphoto{
@@ -378,7 +379,7 @@ body{
 .photos .fourth{
 	color: purple;
 	width: 90px;
-	height: 90px;
+	height: 70px;
 	background-color: skyblue;
 	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
 
@@ -386,14 +387,14 @@ body{
 }
 
 .fourth .date4{
-	font-size: 1rem;
+	font-size: 0.9rem;
 	font-style: italic;
 	width: 100%;
 	height: 100%;
 
 	position: absolute;
-	top: 33%;
-	left: 30%;
+	top: 28%;
+	left: 19%;
 }
 
 .fourth .fourthphoto{
@@ -425,8 +426,8 @@ body{
 
 .photos .fifth{
 	color: purple;
-	width: 230px;
-	height: 80px;
+	width: 120px;
+	height: 65px;
 	background-color: skyblue;
 	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
 
@@ -436,14 +437,14 @@ body{
 }
 
 .fifth .date5{
-	font-size: 1rem;
+	font-size: 0.9rem;
 	font-style: italic;
 	width: 100%;
 	height: 100%;
 
 	position: absolute;
-	top: 33%;
-	left: 30%;
+	top: 24%;
+	left: 20%;
 }
 
 .fifth .fifthphoto{
@@ -475,8 +476,8 @@ body{
 
 .photos .sixth{
 	color: purple;
-	width: 90px;
-	height: 90px;
+	width: 70px;
+	height: 70px;
 	background-color: skyblue;
 	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
 
@@ -484,14 +485,14 @@ body{
 }
 
 .sixth .date6{
-	font-size: 1rem;
+	font-size: 0.9rem;
 	font-style: italic;
 	width: 100%;
 	height: 100%;
 
 	position: absolute;
-	top: 33%;
-	left: 30%;
+	top: 21%;
+	left: 10%;
 }
 
 .sixth .sixthphoto{
@@ -523,8 +524,8 @@ body{
 
 .photos .seventh{
 	color: purple;
-	width: 170px;
-	height: 90px;
+	width: 100px;
+	height: 70px;
 	background-color: skyblue;
 	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
 
@@ -532,14 +533,14 @@ body{
 }
 
 .seventh .date7{
-	font-size: 1rem;
+	font-size: 0.9rem;
 	font-style: italic;
 	width: 100%;
 	height: 100%;
 
 	position: absolute;
-	top: 33%;
-	left: 30%;
+	top: 21%;
+	left: 20%;
 }
 
 .seventh .seventhphoto{
@@ -571,8 +572,8 @@ body{
 
 .photos .eightth{
 	color: purple;
-	width: 170px;
-	height: 90px;
+	width: 100px;
+	height: 70px;
 	background-color: skyblue;
 	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
 
@@ -580,14 +581,14 @@ body{
 }
 
 .eightth .date8{
-	font-size: 1rem;
+	font-size: 0.9rem;
 	font-style: italic;
 	width: 100%;
 	height: 100%;
 
 	position: absolute;
-	top: 33%;
-	left: 30%;
+	top: 20%;
+	left: 20%;
 }
 
 .eightth .eightthphoto{
@@ -619,8 +620,8 @@ body{
 
 .photos .nineth{
 	color: purple;
-	width: 170px;
-	height: 90px;
+	width: 100px;
+	height: 70px;
 	background-color: skyblue;
 	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
 
@@ -628,14 +629,14 @@ body{
 }
 
 .nineth .date9{
-	font-size: 1rem;
+	font-size: 0.9rem;
 	font-style: italic;
 	width: 100%;
 	height: 100%;
 
 	position: absolute;
-	top: 33%;
-	left: 30%;
+	top: 20%;
+	left: 20%;
 }
 
 .nineth .ninethphoto{
@@ -667,8 +668,8 @@ body{
 
 .photos .tenth{
 	color: purple;
-	width: 170px;
-	height: 90px;
+	width: 100px;
+	height: 70px;
 	background-color: skyblue;
 	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
 
@@ -676,14 +677,14 @@ body{
 }
 
 .tenth .date10{
-	font-size: 1rem;
+	font-size: 0.9rem;
 	font-style: italic;
 	width: 100%;
 	height: 100%;
 
 	position: absolute;
-	top: 33%;
-	left: 30%;
+	top: 20%;
+	left: 20%;
 }
 
 .tenth .tenthphoto{
@@ -715,8 +716,8 @@ body{
 
 .photos .eleventh{
 	color: purple;
-	width: 170px;
-	height: 90px;
+	width: 100px;
+	height: 65px;
 	background-color: skyblue;
 	box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
 
@@ -730,8 +731,8 @@ body{
 	height: 100%;
 
 	position: absolute;
-	top: 33%;
-	left: 30%;
+	top: 19%;
+	left: 20%;
 }
 
 .eleventh .eleventhphoto{
